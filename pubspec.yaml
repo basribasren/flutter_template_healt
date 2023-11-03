@@ -1,0 +1,67 @@
+name: basri_s_application16
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.0.0
+  connectivity_plus: ^2.3.6
+  shared_preferences: ^2.0.15
+  cached_network_image: ^3.2.1
+  flutter_svg: ^1.1.6
+  equatable: ^2.0.0
+  flutter_login_facebook: ^1.6.2
+  google_sign_in: ^5.0.7
+  pin_code_fields: ^7.3.0
+  flutter_rating_bar: ^4.0.0
+  smooth_page_indicator: ^1.0.0+2
+  sms_autofill: ^2.0.0
+  readmore: ^2.1.0
+  webview_flutter: ^3.0.4
+  google_maps_flutter: ^2.0.0
+  dio: ^5.0.3
+  permission_handler: ^10.0.0
+  images_picker: ^1.2.11
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Raleway
+      fonts: 
+        - asset: assets/fonts/RalewayRomanBold.ttf
+          weight: 700
+        - asset: assets/fonts/RalewayBold.ttf
+          weight: 700
+        - asset: assets/fonts/RalewayMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewaySemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RalewayRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewayRomanMedium.ttf
+          weight: 500
+        - asset: assets/fonts/RalewayRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RalewayRomanSemiBold.ttf
+          weight: 600
+    - family: SF Pro Display
+      fonts: 
+        - asset: assets/fonts/SFProDisplayRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterBlackItalic.ttf
+          weight: 900
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
